@@ -1,8 +1,8 @@
-openai==0.28
-tiktoken 
+ctransformers==0.2.5
+sentence-transformers==2.2.2
 chromadb==0.4.4
 langchain==0.0.249
 flask
-GitPython
+GitPython # to clone any repo from github
 python-dotenv
 #-e .
