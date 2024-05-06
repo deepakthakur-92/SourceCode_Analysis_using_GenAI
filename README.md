@@ -72,6 +72,6 @@ python app.py
 ![alt text](image-1.png)
 
 ## Benefits:
-    * Efficient Source Code Understanding: By leveraging advanced NLP techniques and AI models like Llama2, the system can understand and interpret source code in a human-like manner, enabling comprehensive analysis and insights.
-    * Enhanced Developer Productivity: Developers and software engineers can benefit from quick access to relevant code information and insights, facilitating faster debugging, code comprehension, and development workflows.
-    * Improved Documentation and Knowledge Management: The system can assist in generating documentation, answering questions, and capturing knowledge about the codebase, contributing to better code maintenance and collaboration.
+* Efficient Source Code Understanding: By leveraging advanced NLP techniques and AI models like Llama2, the system can understand and interpret source code in a human-like manner, enabling comprehensive analysis and insights.
+* Enhanced Developer Productivity: Developers and software engineers can benefit from quick access to relevant code information and insights, facilitating faster debugging, code comprehension, and development workflows.
+* Improved Documentation and Knowledge Management: The system can assist in generating documentation, answering questions, and capturing knowledge about the codebase, contributing to better code maintenance and collaboration.
