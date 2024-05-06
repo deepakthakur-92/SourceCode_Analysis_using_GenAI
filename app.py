@@ -16,10 +16,11 @@ persist_directory = "db"
 vectordb = Chroma(persist_directory=persist_directory,
                   embedding_function=embeddings)
 
-llm=CTransformers(model="../model/llama-2-7b-chat.ggmlv3.q4_0.bin",
+llm=CTransformers(model="model/llama-2-7b-chat.ggmlv3.q4_0.bin",
                   model_type="llama",
                   config={'max_new_tokens':128,
-                          'temperature':0.01})
+                          'temperature':0.01,
+                          'context_length': 2000})
 
 memory = ConversationSummaryMemory(llm=llm, memory_key="chat_history", return_messages=True)
 
