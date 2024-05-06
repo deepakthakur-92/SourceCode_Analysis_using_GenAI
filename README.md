@@ -1,16 +1,16 @@
-# SourceCode Analysis using GenAI(Llama2)
+# SourceCode Analysis using Llama2
 
 This project implements a chatbot using Retrieval Question Answering (QA) techniques. The chatbot is built using Flask, LangChain, Hugging Face Transformers, and Llama2.
 
 ## Overview
-The "SourceCode Analysis using GenAI (Llama2)" project is a system designed to analyze source code repositories using advanced natural language processing techniques. The project workflow involves several key steps:
+The SourceCode Analysis using Llama2 project is a system designed to analyze source code repositories using advanced natural language processing techniques. The project workflow involves several key steps:
 
 1. ### Git Repository Ingestion:
     * The system reads a Git repository and stores its contents locally in a designated "repo" folder. This folder serves as the source of code for analysis.
 2. ### Chunking:
     * After ingesting the repository, the system breaks down the source code into smaller, manageable "chunks." These chunks could represent individual files, functions, or sections of code.
 3. ### Retrieval QA using Llama2:
-    * With the code chunks prepared, the system applies retrieval-based question-answering (QA) techniques using GenAI (Llama2). Llama2, a powerful language model, is utilized to understand and process natural language queries related to the source code.
+    * With the code chunks prepared, the system applies retrieval-based question-answering (QA) techniques using Llama2. Llama2, a powerful language model, is utilized to understand and process natural language queries related to the source code.
 4. ### Source Code Analysis:
     * The retrieval QA process enables the system to analyze the source code in response to user queries or prompts. Users can inquire about specific code functions, documentation, or implementation details, and the system leverages Llama2 to provide accurate and relevant responses.
 
@@ -24,7 +24,7 @@ The "SourceCode Analysis using GenAI (Llama2)" project is a system designed to a
 4. ### Flask Web Interface:
     * The project may incorporate a Flask-based web interface where users can interact with the system by submitting queries or prompts related to the source code. The interface provides a user-friendly way to access the analysis capabilities of the system.
 
-### Installation
+## Installation
 1. Clone the repository:
 ```
 git clone https://github.com/deepakthakur-92/SourceCode_Analysis_using_GenAI.git
